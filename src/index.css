@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Estilos para la barra de navegación */
+html {
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+  background-color: rgb(201, 74, 74);
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items:center;
+  
+}
+
+li {
+  max-height: 1rem;
+  margin: 0 10px;
+  border: black solid 1px;
+  border-radius: 60%;
+  padding: 10px;
+  background-color: rgb(235, 139, 143);
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.doflamingo{
+  align-items: center;
+  height: max-content;
+  width: 5%;
+}
+img{
+  width: 90%;
+  border-radius: 60%;
 }
